@@ -1,0 +1,66 @@
+﻿生成启动时间为 2017/4/23 12:58:31。
+     1>项目“F:\Mailko\Documents\GitHub\MyCode\SVN_Code\DirectX 3D HLSL高级实例精讲\Engine\Engine.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D ENGINE_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Src\camera.cpp Src\CBoard.cpp Src\CRenderCubeTexture.cpp Src\CRenderObject.cpp Src\CRenderObjectCube.cpp Src\CRenderTexture.cpp Src\CShadowVolumeMesh.cpp Src\d3dUtility.cpp Src\DirectInputClass.cpp Src\ShmFile.cpp
+         ShmFile.cpp
+     1>f:\mailko\documents\github\mycode\svn_code\directx 3d hlsl高级实例精讲\engine\src\shmfile.cpp(214): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+         DirectInputClass.cpp
+         d:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         d3dUtility.cpp
+     1>f:\mailko\documents\github\mycode\svn_code\directx 3d hlsl高级实例精讲\engine\target\camera.h(33): warning C4251: “Camera::_right”: struct“D3DXVECTOR3”需要有 dll 接口由 class“Camera”的客户端使用
+         d:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(162): note: 参见“D3DXVECTOR3”的声明
+     1>f:\mailko\documents\github\mycode\svn_code\directx 3d hlsl高级实例精讲\engine\target\camera.h(34): warning C4251: “Camera::_up”: struct“D3DXVECTOR3”需要有 dll 接口由 class“Camera”的客户端使用
+         d:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(162): note: 参见“D3DXVECTOR3”的声明
+     1>f:\mailko\documents\github\mycode\svn_code\directx 3d hlsl高级实例精讲\engine\target\camera.h(35): warning C4251: “Camera::_look”: struct“D3DXVECTOR3”需要有 dll 接口由 class“Camera”的客户端使用
+         d:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(162): note: 参见“D3DXVECTOR3”的声明
+     1>f:\mailko\documents\github\mycode\svn_code\directx 3d hlsl高级实例精讲\engine\target\camera.h(36): warning C4251: “Camera::_pos”: struct“D3DXVECTOR3”需要有 dll 接口由 class“Camera”的客户端使用
+         d:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(162): note: 参见“D3DXVECTOR3”的声明
+         d:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>f:\mailko\documents\github\mycode\svn_code\directx 3d hlsl高级实例精讲\engine\target\d3dutility.h(53): warning C4251: “CD3dUtility::m_WindowName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CD3dUtility”的客户端使用
+         CShadowVolumeMesh.cpp
+     1>f:\mailko\documents\github\mycode\svn_code\directx 3d hlsl高级实例精讲\engine\target\cshadowvolumemesh.h(45): warning C4251: “CShadowVolumeMesh::m_vCenter”: struct“D3DXVECTOR3”需要有 dll 接口由 class“CShadowVolumeMesh”的客户端使用
+         d:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(162): note: 参见“D3DXVECTOR3”的声明
+     1>f:\mailko\documents\github\mycode\svn_code\directx 3d hlsl高级实例精讲\engine\src\cshadowvolumemesh.cpp(125): warning C4305: “参数”: 从“double”到“FLOAT”截断
+     1>f:\mailko\documents\github\mycode\svn_code\directx 3d hlsl高级实例精讲\engine\src\cshadowvolumemesh.cpp(167): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\mailko\documents\github\mycode\svn_code\directx 3d hlsl高级实例精讲\engine\src\cshadowvolumemesh.cpp(198): warning C4838: 从“DWORD”转换到“int”需要收缩转换
+         CRenderTexture.cpp
+         CRenderObjectCube.cpp
+     1>f:\mailko\documents\github\mycode\svn_code\directx 3d hlsl高级实例精讲\engine\target\crenderobjectcube.h(32): warning C4251: “CRenderObjectCube::m_vCenter”: struct“D3DXVECTOR3”需要有 dll 接口由 class“CRenderObjectCube”的客户端使用
+         d:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(162): note: 参见“D3DXVECTOR3”的声明
+         CRenderObject.cpp
+     1>f:\mailko\documents\github\mycode\svn_code\directx 3d hlsl高级实例精讲\engine\target\crenderobject.h(26): warning C4251: “CRenderObject::m_vCenter”: struct“D3DXVECTOR3”需要有 dll 接口由 class“CRenderObject”的客户端使用
+         d:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(162): note: 参见“D3DXVECTOR3”的声明
+         CRenderCubeTexture.cpp
+     1>f:\mailko\documents\github\mycode\svn_code\directx 3d hlsl高级实例精讲\engine\target\crendercubetexture.h(19): warning C4251: “CRenderCubeTexture::m_matView”: struct“D3DXMATRIX”需要有 dll 接口由 class“CRenderCubeTexture”的客户端使用
+         d:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(312): note: 参见“D3DXMATRIX”的声明
+         CBoard.cpp
+         camera.cpp
+     1>f:\mailko\documents\github\mycode\svn_code\directx 3d hlsl高级实例精讲\engine\target\camera.h(33): warning C4251: “Camera::_right”: struct“D3DXVECTOR3”需要有 dll 接口由 class“Camera”的客户端使用
+         d:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(162): note: 参见“D3DXVECTOR3”的声明
+     1>f:\mailko\documents\github\mycode\svn_code\directx 3d hlsl高级实例精讲\engine\target\camera.h(34): warning C4251: “Camera::_up”: struct“D3DXVECTOR3”需要有 dll 接口由 class“Camera”的客户端使用
+         d:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(162): note: 参见“D3DXVECTOR3”的声明
+     1>f:\mailko\documents\github\mycode\svn_code\directx 3d hlsl高级实例精讲\engine\target\camera.h(35): warning C4251: “Camera::_look”: struct“D3DXVECTOR3”需要有 dll 接口由 class“Camera”的客户端使用
+         d:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(162): note: 参见“D3DXVECTOR3”的声明
+     1>f:\mailko\documents\github\mycode\svn_code\directx 3d hlsl高级实例精讲\engine\target\camera.h(36): warning C4251: “Camera::_pos”: struct“D3DXVECTOR3”需要有 dll 接口由 class“Camera”的客户端使用
+         d:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(162): note: 参见“D3DXVECTOR3”的声明
+         正在生成代码...
+     1>f:\mailko\documents\github\mycode\svn_code\directx 3d hlsl高级实例精讲\engine\src\crenderobjectcube.cpp(89): warning C4715: “CRenderObjectCube::SetTexture”: 不是所有的控件路径都返回值
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Mailko\Documents\GitHub\MyCode\SVN_Code\DirectX 3D HLSL高级实例精讲\Debug\Engine.dll" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\LIB\X86" D3D9.LIB D3DX9.LIB kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\Mailko\Documents\GitHub\MyCode\SVN_Code\DirectX 3D HLSL高级实例精讲\Debug\Engine.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Mailko\Documents\GitHub\MyCode\SVN_Code\DirectX 3D HLSL高级实例精讲\Debug\Engine.lib" /MACHINE:X86 /DLL Debug\camera.obj
+         Debug\CBoard.obj
+         Debug\CRenderCubeTexture.obj
+         Debug\CRenderObject.obj
+         Debug\CRenderObjectCube.obj
+         Debug\CRenderTexture.obj
+         Debug\CShadowVolumeMesh.obj
+         Debug\d3dUtility.obj
+         Debug\DirectInputClass.obj
+         Debug\ShmFile.obj
+           正在创建库 F:\Mailko\Documents\GitHub\MyCode\SVN_Code\DirectX 3D HLSL高级实例精讲\Debug\Engine.lib 和对象 F:\Mailko\Documents\GitHub\MyCode\SVN_Code\DirectX 3D HLSL高级实例精讲\Debug\Engine.exp
+         Engine.vcxproj -> F:\Mailko\Documents\GitHub\MyCode\SVN_Code\DirectX 3D HLSL高级实例精讲\Debug\Engine.dll
+     1>已完成生成项目“F:\Mailko\Documents\GitHub\MyCode\SVN_Code\DirectX 3D HLSL高级实例精讲\Engine\Engine.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:09.49

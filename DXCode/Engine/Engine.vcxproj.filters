@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Target">
+      <UniqueIdentifier>{d639b758-ff9a-4f8a-a05e-0a3e83db9f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc">
+      <UniqueIdentifier>{65c2b922-cbc7-4340-90c5-c489082d2c79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{7ba57756-d8c5-4d1e-a94f-40be0454fbc6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Target.h" />
+    <ClInclude Include="Target\Common.h">
+      <Filter>Target</Filter>
+    </ClInclude>
+    <ClInclude Include="Target\d3dUtility.h">
+      <Filter>Target</Filter>
+    </ClInclude>
+    <ClInclude Include="Target\ShmFile.h">
+      <Filter>Target</Filter>
+    </ClInclude>
+    <ClInclude Include="Target\CRenderObject.h">
+      <Filter>Target</Filter>
+    </ClInclude>
+    <ClInclude Include="Target\camera.h">
+      <Filter>Target</Filter>
+    </ClInclude>
+    <ClInclude Include="Target\DirectInputClass.h">
+      <Filter>Target</Filter>
+    </ClInclude>
+    <ClInclude Include="Target\CBoard.h">
+      <Filter>Target</Filter>
+    </ClInclude>
+    <ClInclude Include="Target\CRenderObjectCube.h">
+      <Filter>Target</Filter>
+    </ClInclude>
+    <ClInclude Include="Target\CRenderCubeTexture.h">
+      <Filter>Target</Filter>
+    </ClInclude>
+    <ClInclude Include="Target\CRenderTexture.h">
+      <Filter>Target</Filter>
+    </ClInclude>
+    <ClInclude Include="Target\CShadowVolumeMesh.h">
+      <Filter>Target</Filter>
+    </ClInclude>
+    <ClInclude Include="Target\CParticle.h">
+      <Filter>Target</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\d3dUtility.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ShmFile.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CRenderObject.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\camera.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DirectInputClass.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CBoard.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CRenderObjectCube.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CRenderCubeTexture.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CRenderTexture.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CShadowVolumeMesh.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
